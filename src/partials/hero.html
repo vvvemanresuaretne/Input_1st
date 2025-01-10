@@ -1,4 +1,43 @@
-<section class="hero">
+<section class="hero-section">
   <div class="container">
+    <h1 class="hero-title">
+      Welcome to our <span class="hero-part">collection</span> of premium
+      watches
+    </h1>
+    <p class="hero-dscr">
+      Our watches are not just timepieces, but also an expression of your
+      personality and lifestyle. From classic designs to modern ones, we have a
+      watch to suit every taste and occasion.
+    </p>
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./img-hero/hero/clock-desktop-1x.jpg  1x,
+          ./img-hero/hero/clock-desktop-@2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img-hero/hero/clock-tablet-1x.jpg  1x,
+          ./img-hero/hero/clock-tablet-@2x.jpg 2x
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./img-hero/hero/clock-mobile-1x.jpg  1x,
+          ./img-hero/hero/clock-mobile-@2x.jpg 2x
+        "
+      />
+      <img
+        class="hero-photo"
+        src="./img-hero/hero/clock-desktop-1x.jpg"
+        alt="hero-clock"
+      />
+    </picture>
+
+    <a href="#footer" class="hero-link">Scroll down</a>
   </div>
 </section>
