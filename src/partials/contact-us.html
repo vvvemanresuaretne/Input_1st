@@ -1,4 +1,67 @@
 <section class="contact-us">
-    <div class="container">
+  <div class="container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="block-contact">
+      <div class="block-input-container">
+        <p class="contact-dscr">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="leave-form">
+          <div class="input-container">
+            <input
+              class="form-input"
+              type="text"
+              name="username"
+              id="name"
+              required
+            />
+            <label class="form-label" for="name">Name</label>
+          </div>
+          <div class="input-container">
+            <input
+              class="form-input"
+              type="email"
+              name="mail"
+              id="email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+            <label class="form-label" for="email">Email</label>
+          </div>
+          <div class="input-container">
+            <input
+              class="form-input"
+              type="text"
+              name="tel"
+              id="phone"
+              pattern="\+38\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}"
+              placeholder="+380-XX-XXX-XX-XX"
+              required
+            />
+            <label class="form-label" for="phone">Phone</label>
+          </div>
+          <div class="input-container">
+            <textarea
+              class="form-text"
+              name="description"
+              id="comment"
+            ></textarea>
+            <label class="form-label" for="comment">Comment</label>
+          </div>
+        </form>
+        <button type="submit" class="send-btn">Send</button>
+      </div>
+      <div class="block-img">
+        <img
+          src="../img/contact-us-img/img-watch-x1.jpg"
+          srcset="
+            ../img/contact-us-img/img-watch-x2@2x.webp 2x,
+            ../img/contact-us-img/img-watch-x3@3x.webp 3x
+          "
+          alt="watch"
+        />
+      </div>
     </div>
+  </div>
 </section>
