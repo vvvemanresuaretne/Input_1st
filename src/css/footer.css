@@ -19,3 +19,87 @@
   background-color: #41d1ff;
   transition: 200ms ease;
 }
+.footer-container {
+  background-color: #0c0c0c;
+  margin-top: 100px;
+  margin-bottom: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+  border-radius: 30px;
+  padding: 40px 40px 28px 40px;
+}
+
+.footer .container {
+}
+
+.footer-nav-page {
+}
+.footer-logo {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.footer-text-page {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+.footer-addr {
+  font-style: normal;
+}
+.footer-addr-link {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+.footer-addr-link:hover,
+.footer-addr-link:focus {
+  color: #404bbf;
+}
+.footer-nav-list {
+}
+.footer-nav-item-link {
+}
+.footer-nav {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #fbfbfb;
+  display: block;
+  cursor: pointer;
+}
+.footer-nav:hover,
+.footer-nav:focus {
+  color: #404bbf;
+}
+
+.footer-map-addr {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
+}
+.footer-status {
+}
+.footer-licenzi {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+/* endregion footer */
