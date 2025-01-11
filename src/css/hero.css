@@ -74,7 +74,7 @@ img {
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin: 0 auto;
-  /* margin-bottom: 20px; */
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -115,7 +115,12 @@ img {
 .hero-photo {
   border-radius: 30px;
   background: rgba(12, 12, 12, 0.2);
-  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-photo {
+    max-width: 1150px;
+  }
 }
 
 .hero-link {
@@ -142,10 +147,6 @@ img {
   color: #3350e9;
 }
 
-.hero-item {
-  position: relative;
-}
-
 .hero-photo-list {
   stroke-width: 2px;
   stroke: #fbfbfb;
@@ -167,7 +168,6 @@ img {
 @media screen and (min-width: 768px) {
   .hero-photo-link {
     flex-direction: column;
-    min-height: 260px;
     margin-bottom: 40px;
     max-width: 146px;
   }
@@ -184,14 +184,18 @@ img {
   .hero-title-dscr {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     max-width: 557px;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-bottom: 40px;
   }
 }
 
-.hero-item.ethan {
+.hero-item {
+  position: relative;
+}
+
+.hero-item.amanda {
   z-index: 9997;
 }
 
@@ -203,4 +207,18 @@ img {
 .hero-item.fleur {
   right: 23px;
   z-index: 9999;
+}
+
+@media screen and (min-width: 768px) {
+  .big-div {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 11px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .big-div {
+    justify-content: space-between;
+  }
 }
