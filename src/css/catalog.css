@@ -59,7 +59,8 @@
         background-color: #f3f3f3;
         
         padding: 24px 28px;
-       
+       margin: 0 auto;
+       width: 100%;
         }
 
         
@@ -71,14 +72,24 @@
             width: calc((100% - 16px) / 2)
           }
           } 
+
+          @media screen and (min-width: 1280px){
+            .item-catalog{
+            width: calc((100% - 46px) / 3)}
+            }
+            
   
-        @media screen and (max-width: 375px){
+        @media screen and (max-width: 767.97px){
           .invisible-item{
             display: none;
           }
           }
-          
+         
+.box-catalog {
+display: flex;
+justify-content: center;
 
+} 
   
       .subtitle-catalog{
         font-weight: 500;
