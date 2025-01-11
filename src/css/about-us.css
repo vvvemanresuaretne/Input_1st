@@ -120,6 +120,7 @@
 
   .about-us-container {
     width: 580px;
+    height: 532px;
   }
 
   .about-us-item {
@@ -132,5 +133,6 @@
   .about-us-photo {
     margin-left: 40px;
     margin-top: 0;
+    height: 532px;
   }
 }
