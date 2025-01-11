@@ -61,6 +61,7 @@
         padding: 24px 28px;
        
         }
+
         
 
         @media screen and (min-width: 768px) and (max-width: 1280px){
@@ -69,14 +70,15 @@
           
             width: calc((100% - 16px) / 2)
           }
-          }
-         
+          } 
   
         @media screen and (max-width: 375px){
-          .invisible{
+          .invisible-item{
             display: none;
           }
           }
+          
+
   
       .subtitle-catalog{
         font-weight: 500;
