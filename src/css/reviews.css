@@ -32,6 +32,8 @@
 }
 .review-item-image {
   margin-bottom: 24px;
+  width: 56px;
+  height: 56px;
 }
 .review-card {
   display: flex;
