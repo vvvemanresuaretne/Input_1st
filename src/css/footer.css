@@ -1,5 +1,11 @@
 .footer {
-  padding: 20px 0;
+  /* width: 1216px; */
+  margin-top: 0;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0c0c0c;
+  border-radius: 30px;
 }
 .footer-desc {
   text-align: center;
@@ -7,15 +13,98 @@
 .footer-link {
   position: relative;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 126px;
+  width: 1136px;
+  padding-top: 40px;
+  padding-bottom: 28px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
+.footer-nav-page {
+}
+.footer-logo {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.footer-text-page {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+.footer-addr {
+  font-style: normal;
+}
+.footer-addr-link {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  /* width: 130px;
+  height: 18px; */
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer-addr-link:hover,
+.footer-addr-link:focus {
+  color: #404bbf;
+}
+.footer-addr {
+}
+.footer-nav-list {
+}
+.footer-nav-item-link {
+}
+.footer-nav {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #fbfbfb;
+  display: block;
+  cursor: pointer;
+}
+.footer-nav:hover,
+.footer-nav:focus {
+  color: #404bbf;
+}
+
+.footer-map-addr {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
+}
+.footer-status {
+}
+.footer-licenzi {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+/* endregion footer */
