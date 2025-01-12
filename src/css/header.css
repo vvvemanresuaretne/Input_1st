@@ -15,7 +15,9 @@
 }
 
 .social-logo-info {
-  display: none
+  display: none;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 @media screen and (min-width: 1280px) {
@@ -23,19 +25,20 @@
     display: flex;
     flex-direction: row;
   }
-
+     .social-logo-info {
+       display: flex;
+      
+  
+     }  
 }
 
-@media screen and (min-width: 1280px) {
-  .social-logo-info {
-    display: flex;
-   
-  }
-}
 .logo-list {
   display: flex;
   flex-direction: row;
   gap: 10px;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
 
 }
 .logo{
