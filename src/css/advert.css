@@ -8,7 +8,7 @@
   background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(/src/img/advert/advert_bg@1x.jpg);
+      url(/src/img/advert/advert_bg@1x.webp);
   background-size: cover;
   background-position: center;
   border-radius: 30px;
@@ -19,7 +19,7 @@
     background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)),
-      url(/src/img/advert/advert_bg@2x.jpg);
+      url(/src/img/advert/advert_bg@2x.webp);
   }
 }
 .visually-hidden {
