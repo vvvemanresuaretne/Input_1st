@@ -1,5 +1,5 @@
 /* ======== tab-menu========== */
-.tab-menu.is-open {
+.tab-menu.is-opens {
   opacity: 0;
   visibility: visible;
   pointer-events: auto;
