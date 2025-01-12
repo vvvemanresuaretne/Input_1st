@@ -12,6 +12,7 @@
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  background-color: #0c0c0c;
   
 }
 @media screen and (max-width: 767) and (min-resolution: 192dpi) {
