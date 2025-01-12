@@ -47,7 +47,6 @@ justify-content: center;
   text-underline-position: from-font;
   text-decoration: none;
 }
-
 .button-menu {
   display: flex;
   cursor: pointer;
@@ -77,6 +76,6 @@ justify-content: center;
   width: 36px;
   height: 36px;
   padding: 8px;
-border: 1px solid rgba(18, 20, 23, 0.1);
+  border: 1px solid rgba(18, 20, 23, 0.1);
   border-radius: 12px;}
    
