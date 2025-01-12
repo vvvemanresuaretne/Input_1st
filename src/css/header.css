@@ -29,13 +29,15 @@
 @media screen and (min-width: 1280px) {
   .social-logo-info {
     display: flex;
-    flex-direction: row;
+   
   }
 }
-
-.logo {
-  display: inline-flex;
-  align-items: center;
+.logo-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.logo{
   font-family: Gilroy;
   font-size: 16px;
   font-weight: 500;
@@ -56,4 +58,28 @@
   line-height: 0;
   padding: 0;
   stroke: black;
+}
+@media screen and (min-width: 1280px){
+  .button-menu {display: none;}
+  
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 203px;
+}
+.navbar-container {
+  gap: 40px;
+}
+
+.icon-menu {
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  border: 1px;
+  border-color: black;
+  border-radius: 8px;
+   
 }
