@@ -87,19 +87,9 @@ justify-content: center;
 .icon-social:focus {
   fill: rgba(51, 80, 233, 1);
 }
- .current {
-   position: relative;
-   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
 
- @media screen and (min-width: 768px) {
-   .current {
-     position: relative;
-     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   }
- }
 
- @media (min-width: 1158px) {
+ @media (min-width: 1280px) {
    .current {
      position: relative;
      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
