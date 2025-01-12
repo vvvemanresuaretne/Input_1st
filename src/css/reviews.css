@@ -69,22 +69,22 @@
     line-height: 1;
   }
   .victoria {
-    display: none;
+
+    display: flex;
+
+
   }
   .anastasia {
     display: none;
   }
-  @media screen and (min-width: 768px) {
-    .victoria {
-      display: flex;
-    }
-    .anastasia {
-      display: flex;
-    }
-  }
+
 
   .review-list {
     gap: 16px;
+  }
+
+  .review-list-item {
+    width: calc((100% - 16px) / 2);
   }
   .review-item-heading {
     font-weight: 500;
@@ -100,8 +100,15 @@
   .reviews {
     padding: 50px 0;
   }
-
   .review-list {
     gap: 20px;
+  }
+
+
+  .review-list-item {
+    width: calc((100% - 20px) / 3);
+  }
+  .anastasia {
+    display: flex;
   }
 }
