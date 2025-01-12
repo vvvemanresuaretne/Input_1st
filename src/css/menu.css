@@ -1,4 +1,9 @@
 /* ======== tab-menu========== */
+.tab-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 .tab-menu {
   position: fixed;
   top: 0;
@@ -34,11 +39,7 @@
       url(../img/menu-bg-img/menu-watch@2x.jpg);
   }
 }
-.tab-menu.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
+
 .tab-menu-container {
   position: relative;
   /* padding-top: 240px; */
