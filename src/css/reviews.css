@@ -19,7 +19,6 @@
 }
 .review-list {
   display: flex;
-
 }
 .review-list-item {
   display: flex;
@@ -27,7 +26,7 @@
   align-items: center;
   background-color: #f3f3f3;
   border-radius: 30px;
-  
+  padding: 32px 36px;
 }
 .review-item-image {
   margin-bottom: 24px;
@@ -69,24 +68,19 @@
     font-size: 48px;
     line-height: 1;
   }
-    .victoria {
-      display: none;
-    }
-        .anastasia {
-          display: none;
-        }
-@media screen and (min-width: 768px){
-.victoria {
+  .victoria {
     display: flex;
   }
-    .anastasia {
-      display: flex;
-    }
-}
+  .anastasia {
+    display: none;
+  }
 
-  
   .review-list {
     gap: 16px;
+  }
+
+  .review-list-item {
+    width: calc((100% - 16px) / 2);
   }
   .review-item-heading {
     font-weight: 500;
@@ -102,12 +96,14 @@
   .reviews {
     padding: 50px 0;
   }
-
   .review-list {
     gap: 20px;
   }
-  
+
+  .review-list-item {
+    width: calc((100% - 16px) / 2);
   }
- 
-  
- 
+  .anastasia {
+    display: flex;
+  }
+}
