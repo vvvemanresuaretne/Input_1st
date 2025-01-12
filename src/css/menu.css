@@ -1,25 +1,12 @@
-/* ======== tab-menu========== */
-.tab-menu.is-opens {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
+/* ==================menu============= */
 .tab-menu {
   position: fixed;
   top: 0;
-  right: 0;
-  padding: 0;
-  width: 200px;
-  height: 812px;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(12, 12, 12, 0.92),
-      rgba(12, 12, 12, 0.92)
-    ),
-    url(../img/menu-bg-img/menu-watch.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(46, 47, 66, 0.4); */
+
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -30,70 +17,87 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 1279px) and (min-resolution: 192dpi) {
-  .tab-menu {
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.tab-menu-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 240px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #0c0c0c;
+  background-image: linear-gradient(
+      rgba(12, 12, 12, 0.92),
+      rgba(12, 12, 12, 0.92)
+    ),
+    url(../img/about-us-img/menu-watch.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .hero {
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(../img/menu-bg-img/menu-watch@2x.jpg);
+      url(../img/about-us-img/menu-watch@2x.jpg);
   }
 }
-
-.tab-menu-container {
-  position: relative;
-  /* padding-top: 240px; */
-  /* padding-bottom: 40px; */
-  /* display: flex;
-  flex-direction: column; */
-  height: 100%;
-}
-.tab-menu-btn {
+.menu-btn {
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 34px;
-  height: 34px;
   stroke: #fbfbfb;
-}
-.menu-btn {
-  padding: 0;
   background-color: transparent;
-}
-.tab-menu-nav {
-  margin: 0 auto;
-}
-.menu-nav-list {
-  display: flex;
-  list-style-type: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  margin-top: 240px;
+  border: none;
 }
 
+.tab-menu-nav {
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.menu-nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.menu-nav-item {
+  margin-bottom: 24px;
+}
 .menu-nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
-  list-style-type: none;
-  text-decoration: none;
 }
+
 .menu-icon-list {
   display: flex;
   gap: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
 }
-/* .menu-icon-item {
+.menu-icon-item {
   width: 34px;
   height: 34px;
-  background-color: transparent;
-  stroke: #fbfbfb;
-} */
+}
 .menu-icon-nav {
   display: flex;
   align-items: center;
@@ -103,33 +107,39 @@
   background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
+  padding: 8px;
+
+  width: 34px;
+  height: 34px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .tab-menu-icon {
-  stroke: #fbfbfb;
-  background-color: transparent;
-}
-/* .tab-menu-icon:hover,
-.tab-menu-icon:focus {
   fill: #fbfbfb;
-} */
+}
+.tab-menu-icon:hover,
+.tab-menu-icon:focus {
+  fill: #ffffff;
+}
 @media screen and (min-width: 768px) {
-  .tab-menu {
+  .tab-menu-container {
+    padding-top: 310px;
+    padding-bottom: 50px;
+
     width: 330px;
+    height: 100%;
   }
-  .tab-menu-btn {
+  .menu-btn {
     top: 26px;
     right: 32px;
-    display: flex;
-    width: 40px;
-    height: 40px;
   }
-  .menu-nav-list {
-    gap: 32px;
-    margin-top: 310px;
+  .menu-nav-item {
+    margin-bottom: 32px;
   }
   .menu-icon-item {
+    width: 36px;
+    height: 36px;
+  }
+  .menu-icon-nav {
     width: 36px;
     height: 36px;
   }
