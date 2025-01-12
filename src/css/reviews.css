@@ -101,7 +101,7 @@
   }
 
   .review-list-item {
-    width: calc((100% - 16px) / 2);
+    width: calc((100% - 20px) / 3);
   }
   .anastasia {
     display: flex;
