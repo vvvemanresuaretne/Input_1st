@@ -39,13 +39,13 @@ justify-content: center;
 }
 .logo{
   font-family: Gilroy;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 19.41px;
+  line-height: 24.26px;
   letter-spacing: -0.02em;
   text-align: left;
   text-underline-position: from-font;
-  text-decoration: none;
+  text-decoration-skip-ink: none;
 }
 .button-menu {
   display: flex;
