@@ -154,6 +154,9 @@ color: #fbfbfb;
     width: 160px;
     height: 52px;
   }
+    .block-input-container {
+      margin-bottom: 40px;
+    }
 }
 @media screen and (min-width: 1280px) {
 
@@ -178,6 +181,7 @@ color: #fbfbfb;
   .send-btn {
     transition: background 250ms ease-in-out;
   }
-
+.block-input-container {
+  margin-bottom: 40px;}
   }
 
