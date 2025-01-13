@@ -267,6 +267,9 @@
     margin-bottom: 0;
   }
 }
-
+.footer-icon-social:hover,
+.footer-icon-social:focus {
+  fill: rgba(51, 80, 233, 1);
+}
 
   
