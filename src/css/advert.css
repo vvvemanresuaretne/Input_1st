@@ -39,8 +39,11 @@
   gap: 28px;
 }
 @media (min-width: 768px) {.adv-content {
-    gap: 32px;
-  }}
+    gap: 32px;}
+    .adv {
+      padding-bottom: 80px;
+    }
+  }
     @media (min-width: 1280px) {
       .adv-content {
         flex-direction: row;

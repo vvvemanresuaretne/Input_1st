@@ -80,13 +80,10 @@
 }
 
     @media screen and (min-width: 768px) {
-      .footer-text-main {
-        min-width: 524px;
-        min-height: 96px;
-        align-items: center;
-      }
+    
   
       .footer-text-page {
+        max-width: 524px;
         font-family: Gilroy;
         font-size: 28px;
         font-weight: 600;
@@ -95,7 +92,11 @@
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
+        margin: 0 auto;
       }
+            .footer-social-logo-info {
+              margin-bottom: 86px;;
+            }
     }
 
 .footer-text-descr {
@@ -194,8 +195,29 @@
     flex-direction: row;
     justify-content: space-between;
     .footer-end{ margin-left: 160px;}
+    padding-top: 28px;
+    border-top: 1px solid gray;
      
     }
+    .footer-wrapper-nav-list{
+      margin-bottom: 28px;
+    }
+    .footer-logo{
+      font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.26px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+  }
+  .footer-container{
+    padding: 40px;
+  }
+  .footer-icon-social{
+    margin-top: 20px;
+  }
   }
 .footer-end {
   display: flex;
@@ -206,3 +228,43 @@
   gap: 20px;
   white-space: nowrap;
 }
+ @media screen and (min-width: 1280px){
+  .footer-nav-page {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .footer-text-page {
+    margin-bottom: 126px;
+  }
+  .footer-container {
+    padding: 40px;
+  }
+  .footer-logo {
+    font-family: Gilroy;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24.26px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;   
+  }
+  .footer-icon-social
+  {margin-top: 20px;}
+  .footer-nav-list{
+    gap: 40px;
+  }
+    .footer-allright-reserv{
+      width: 1136px;
+      padding-top: 28px;
+      border-top: 1px solid grey;
+    }
+        .footer-wrapper-nav-list {
+          margin-bottom: 28px;
+        }
+        .footer-social-logo-info{
+          margin-bottom: 0;
+        }
+ }
+
+  
