@@ -135,6 +135,7 @@ img {
 @media  screen and (min-width: 768px) {
     .sale-container {
       gap: 40px;
+      max-width: 768px;
     }
     .sale-title {
       font-size: 48px;
