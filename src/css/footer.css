@@ -84,14 +84,10 @@
   
       .footer-text-page {
         max-width: 524px;
-        font-family: Gilroy;
+
         font-size: 28px;
         font-weight: 600;
-        line-height: 32px;
-        letter-spacing: -0.02em;
-        text-align: center;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
+        line-height: 1.14;
         margin: 0 auto;
       }
             .footer-social-logo-info {

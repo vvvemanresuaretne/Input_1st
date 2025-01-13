@@ -55,7 +55,9 @@
   background-color: transparent;
   border: none;
 }
-
+.tab-menu-btn{
+  stroke: #FBFBFB;
+}
 .tab-menu-nav {
   margin-bottom: auto;
   display: flex;
