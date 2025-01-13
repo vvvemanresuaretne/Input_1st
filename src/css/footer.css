@@ -209,9 +209,3 @@
   font-size: 14px;
   line-height: 1.28;
 }
-@media screen and (min-width: 1280px) {
-  footer {
-    max-width: 1216px;
-    padding: 0 32px;
-  }
-}
