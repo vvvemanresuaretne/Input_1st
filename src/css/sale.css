@@ -181,7 +181,7 @@ img {
         font-size: 14px;
     }
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
 
     .sale-container {
         display: flex;
