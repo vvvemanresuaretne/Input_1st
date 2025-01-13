@@ -85,12 +85,7 @@ min-width: 160px;
 
 /* tablet */
 @media (min-width: 768px) {
-  .adv {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
- 
+  
   .adv-content {
     padding: 80px 64px;
   }

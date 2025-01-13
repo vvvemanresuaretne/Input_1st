@@ -5,10 +5,10 @@
 
 .header-cont {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-}
+  justify-content: space-between;
 
+}
 .navbar-container {
   display: none;
 }
@@ -20,9 +20,7 @@
 
 @media screen and (min-width: 1280px) {
   .navbar-container {
-    display: flex;
-    flex-direction: row;
-  }
+    display: flex; }
      .social-logo-info {
        display: flex;
      }  
@@ -57,15 +55,17 @@ justify-content: center;
 }
 @media screen and (min-width: 1280px){
   .button-menu {display: none;}
-  
-}
-.navbar {
+  .navbar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-}
-.navbar-container {
+  }
+  .navbar-container {
+  display: flex;
   gap: 40px;
+  white-space: nowrap;
+  }
 }
 .navbar-menu:hover,
 .navbar-menu:focus {
