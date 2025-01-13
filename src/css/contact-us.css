@@ -89,6 +89,7 @@
 .send-btn {
   font-family: inherit;
   border-radius: 16px;
+  border: none;
   padding: 12px 50px;
   width: 134px;
   height: 42px;
