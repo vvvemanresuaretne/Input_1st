@@ -12,7 +12,17 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+@media screen and (min-width: 768px){
+  .about-us-container {
+      padding: 60px 80px;
+     
+}}
+    @media screen and (min-width: 1280px) {
+      .about-us-container {
+        padding: 60px 80px;
+  
+      }
+}
 .about-us-title {
   font-weight: 600;
   font-size: 32px;
@@ -81,10 +91,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-us {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
 
   .about-us-container {
     border-radius: 50px;
@@ -93,15 +99,11 @@
   .about-us-title {
     font-size: 48px;
     line-height: 0.91;
-    margin-bottom: 40px;
-    padding-left: 60px;
-    padding-top: 80px;
+  
+   
   }
 
-  .about-us-list {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
+
 
   .about-us-text {
     font-size: 16px;
@@ -110,8 +112,8 @@
 
   .about-us-btn {
     margin-top: 60px;
-    margin-bottom: 80px;
-    margin-left: 60px;
+    padding: 15px 37px;
+    align-content: center;
   }
 
   .about-us-photo {
@@ -120,10 +122,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .about-us {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+  
 
   .items-about-container {
     display: flex;
