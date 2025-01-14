@@ -1,13 +1,14 @@
 /* Styles for Mobile devices */
 .container {
-  max-width: 375px;
+max-width: 375px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 /* Styles for Tablet devices */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-
+  max-width: 768px;
+    padding: 0 32px;
   }
 }
 
@@ -15,9 +16,14 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1150px;
+    padding: 0 65px;
     
   }
  footer .container  {
     max-width: 1218px;
   }
+}
+footer {
+  padding: 0;
+
 }
