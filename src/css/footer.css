@@ -29,14 +29,13 @@
 }
 
 .footer-logo {
-  font-family: Gilroy;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19.41px;
+font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
   letter-spacing: -0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-align: center;
+  color: var(--background);
   color: #FBFBFB;
   margin-bottom: 20px;
 }
@@ -68,12 +67,11 @@
 .footer-text-page {
   font-family: var(--font-family);
     font-weight: 600;
-    font-size: 20px;
-    line-height: 120%;
+    font-size: 28px;
+    line-height: 114%;
     letter-spacing: -0.02em;
     text-align: center;
     color: var(--background);
-  color: #FBFBFB;
   padding: 0 14px;
   display: flex;
   align-items: center;
