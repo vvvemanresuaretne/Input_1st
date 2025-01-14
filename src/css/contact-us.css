@@ -93,7 +93,7 @@
   border-radius: 16px;
   border: none;
   padding: 12px 50px;
-  min-width: 134px;
+  max-width: 134px;
   height: 42px;
   background-color: #3350e9;
   
