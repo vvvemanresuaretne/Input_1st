@@ -1,3 +1,8 @@
+.sale{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
 .sale-title {
     font-size: 32px;
     font-weight: 600;
@@ -133,6 +138,11 @@ img {
     color: #fbfbfb;
 }
 @media  screen and (min-width: 768px) {
+    .sale{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+   
     .sale-container {
       gap: 40px;
     }
@@ -183,7 +193,10 @@ img {
     }
   }
   @media screen and (min-width: 1280px) {
-
+    .sale{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
     .sale-container {
         display: flex;
         justify-content: start;

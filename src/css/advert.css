@@ -1,7 +1,7 @@
-.adv {
+/* .adv {
   padding-top: 0;
   padding-bottom: 30px;
-}
+} */
 
 .container-adv {
   background-repeat: no-repeat;
@@ -40,9 +40,9 @@
 }
 @media (min-width: 768px) {.adv-content {
     gap: 32px;}
-    .adv {
+    /* .adv {
       padding-bottom: 80px;
-    }
+    } */
   }
     @media (min-width: 1280px) {
       .adv-content {

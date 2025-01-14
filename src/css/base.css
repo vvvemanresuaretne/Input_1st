@@ -43,7 +43,7 @@ section,
 footer,
 header {
   max-width: 375px;
-  padding: 0 20px;
+ 
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
@@ -52,7 +52,7 @@ header {
   footer,
   header {
     max-width: 768px;
-    padding: 0 32px;
+    
   }
 }
 
@@ -62,7 +62,7 @@ header {
       footer,
       header {
         max-width: 1280px;
-        padding: 0 65px;
+       
       }
       footer{
         padding: 0;

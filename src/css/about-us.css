@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 40px 20px;
 }
 .about-us-title {
   font-weight: 600;
@@ -19,8 +20,8 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 28px;
-  padding-top: 40px;
-  padding-left: 20px;
+  
+
 }
 .about-us-list {
   display: flex;
@@ -31,8 +32,7 @@
 
   flex-direction: column;
 
-  padding-left: 20px;
-  padding-right: 20px;
+  
 }
 
 .about-us-item {
@@ -48,8 +48,7 @@
 }
 .about-us-btn {
   margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 20px;
+  
   padding: 15px 37px;
   border-radius: 16px;
   display: inline-block;
@@ -78,19 +77,16 @@
   }
   .about-us-container {
     border-radius: 50px;
+
+    padding: 80px 60px;
   }
 
   .about-us-title {
     font-size: 48px;
     line-height: 0.91;
     margin-bottom: 40px;
-    padding-left: 60px;
-    padding-top: 80px;
   }
-  .about-us-list {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
+  
 
   .about-us-text {
     font-size: 16px;
@@ -98,8 +94,7 @@
   }
   .about-us-btn {
     margin-top: 60px;
-    margin-bottom: 80px;
-    margin-left: 60px;
+  
   }
   .about-us-photo {
     margin-top: 40px;
