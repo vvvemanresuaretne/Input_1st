@@ -47,7 +47,7 @@
   outline: none;
   width: 100%;
   height: 42px;
-  padding: 0 20px;
+  padding: 14px 12px;
   background: var(--white);
   color: var(--black);
   border: 1px solid rgba(12, 12, 12, 0.15);
@@ -81,7 +81,7 @@
   height: 104px;
   outline: none;
   width: 100%;
-  padding: 20px 20px;
+  padding: 14px 12px;
   background: transparent;
   color: var(--main);
   border: 1px solid rgba(18, 20, 23, 0.1);
@@ -157,7 +157,13 @@ color: #fbfbfb;
     .block-input-container {
       margin-bottom: 40px;
     }
+        .form-input {
+          padding: 18px 16px;
 }
+.form-text {
+
+  padding: 18px 16px;
+}}
 @media screen and (min-width: 1280px) {
 
   .contact-us {
@@ -184,4 +190,3 @@ color: #fbfbfb;
 .block-input-container {
   margin-bottom: 40px;}
   }
-
