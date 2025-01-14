@@ -56,12 +56,19 @@
 .button-menu {
   display: flex;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
   border: none;
   line-height: 0;
   padding: 0;
   stroke: black;
+
+}
+
+.button-menu:hover,
+.button-menu:focus {
+  stroke: #3350e9;
+
 }
 
 @media screen and (min-width: 1280px) {
