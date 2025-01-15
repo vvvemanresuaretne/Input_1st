@@ -50,7 +50,6 @@
 }
 
 .hero-dscr {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -79,7 +78,6 @@
 }
 
 .hero-link {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -156,17 +154,17 @@
 }
 
 .hero-item.amanda {
-  z-index: 9997;
+  z-index: 9990;
 }
 
 .hero-item.ethan {
   right: 13px;
-  z-index: 9998;
+  z-index: 9991;
 }
 
 .hero-item.fleur {
-  right: 23px;
-  z-index: 9999;
+  right: 23px;  
+  z-index: 9992;
 }
 
 @media screen and (min-width: 768px) {
