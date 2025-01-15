@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 40px;
   }
 }
@@ -58,6 +58,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-section {
+      padding-top: 80px;
+      padding-bottom: 40px;
+    }
   .hero-dscr {
     font-size: 16px;
     line-height: 1.25;
@@ -89,6 +93,7 @@
 }
 
 @media screen and (min-width: 768px) {
+  
   .hero-link {
     font-size: 20px;
     line-height: 1;
@@ -197,4 +202,8 @@
   .big-div {
     justify-content: space-between;
   }
+    .hero-section {
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
 }
