@@ -32,7 +32,7 @@
 
 .review-list {
   display: flex;
-  display: flex;
+  
 }
 
 .review-list-item {
@@ -196,14 +196,7 @@
   padding-bottom: 50px;
 }
 
-.review-list {
-  gap: 20px;
-}
 
-.review-list-item {
-  width: calc((100% - 20px) / 3);
-}
 
-.anastasia {
-  display: flex;
-}
+
+
