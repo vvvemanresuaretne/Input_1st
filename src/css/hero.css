@@ -1,24 +1,24 @@
 /* ======= Hero ======== */
 
 .hero-section {
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 40px;
   }
 }
 
 .hero-title {
-  font-family: 'Gilroy', sans-serif;
-  display: block;
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 40px;
-  line-height: 0.95;
+  line-height: 95%;
   letter-spacing: -0.02em;
+   
   color: #0c0c0c;
   margin: 0 auto;
   padding: 0;
@@ -41,10 +41,15 @@
 
 .hero-part {
   color: #3350e9;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.hero-part:hover {
+  color: #042cf5;
 }
 
 .hero-dscr {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -53,6 +58,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-section {
+      padding-top: 80px;
+      padding-bottom: 40px;
+    }
   .hero-dscr {
     font-size: 16px;
     line-height: 1.25;
@@ -60,12 +69,19 @@
 }
 
 .hero-photo {
-  border-radius: 30px;
+  border-radius: 50px;
   background: rgba(12, 12, 12, 0.2);
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-photo:hover,
+.hero-photo:focus {
+  border: 2px solid #111111;
+
 }
 
 .hero-link {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -77,6 +93,7 @@
 }
 
 @media screen and (min-width: 768px) {
+  
   .hero-link {
     font-size: 20px;
     line-height: 1;
@@ -86,11 +103,6 @@
 .hero-link:hover,
 .hero-link :focus {
   color: #3350e9;
-}
-
-.hero-photo-list {
-  stroke-width: 2px;
-  stroke: #fbfbfb;
 }
 
 .hero-list {
@@ -136,17 +148,17 @@
 }
 
 .hero-item.amanda {
-  z-index: 9997;
+  z-index: 9990;
 }
 
 .hero-item.ethan {
   right: 13px;
-  z-index: 9998;
+  z-index: 9991;
 }
 
 .hero-item.fleur {
-  right: 23px;
-  z-index: 9999;
+  right: 23px;  
+  z-index: 9992;
 }
 
 @media screen and (min-width: 768px) {
@@ -154,6 +166,7 @@
     left: 0px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .hero-item.ethan {
     left: 15px;
@@ -178,4 +191,8 @@
   .big-div {
     justify-content: space-between;
   }
+    .hero-section {
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
 }
